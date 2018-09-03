@@ -1,0 +1,13 @@
+{
+  "kafka" : {
+    "ENABLED" : true,
+    "id"      : "rdkafka",
+    "group"   : "cymatic",
+    "brokers" : "localhost",
+    "report"  : true,
+    "topics"  : {
+      "produce" : ["feed", "bio"],
+      "consume" : ["rtp"]
+    }
+  },
+}
